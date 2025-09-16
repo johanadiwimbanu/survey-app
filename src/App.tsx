@@ -21,11 +21,7 @@ function App() {
       componentToRender = <UserForm />;
   }
 
-  return (
-    <div className='min-h-screen flex items-center justify-center bg-indigo-50 dark:bg-gray-950'>
-      {componentToRender}
-    </div>
-  );
+  return <div className='bg-indigo-50 w-full'>{componentToRender}</div>;
 }
 
 export default App;

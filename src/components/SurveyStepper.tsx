@@ -90,7 +90,7 @@ function SurveyStepper() {
   };
 
   return (
-    <div className='p-6 md:p-10 bg-gray-50 dark:bg-gray-900 min-h-screen flex items-center justify-center'>
+    <div className='p-6 md:p-10 bg-gray-50 min-h-screen flex items-center justify-center'>
       <div className='min-w-md space-y-6'>
         {/* Header */}
         <div className='text-center'>
