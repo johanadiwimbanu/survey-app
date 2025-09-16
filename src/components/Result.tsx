@@ -10,8 +10,8 @@ function Result() {
   };
 
   return (
-    <div className='w-full bg-gray-50s sm:min-w-md h-screen flex items-center justify-center'>
-      <Card className='bg-white w-md shadow-xl'>
+    <div className='bg-gray-50 w-full sm:w-md p-4 h-screen flex items-center justify-center'>
+      <Card className='bg-white min-w-11/12 shadow-xl'>
         <CardContent className='space-y-6'>
           <div className='text-4xl font-extrabold'>You're a legend!</div>
           <p className='text-xl font-semibold text-gray-700'>

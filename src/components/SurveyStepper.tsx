@@ -90,7 +90,7 @@ function SurveyStepper() {
   };
 
   return (
-    <div className='p-6 md:p-10 bg-gray-50 min-h-screen flex items-center justify-center'>
+    <div className='p-4 bg-gray-50 min-h-screen w-full sm:w-md flex items-center justify-center'>
       <div className='min-w-md space-y-6'>
         {/* Header */}
         <div className='text-center'>
@@ -103,7 +103,7 @@ function SurveyStepper() {
         </div>
 
         {/* Question Card */}
-        <Card className='relative min-h-80 flex flex-col justify-between px-6 py-16 bg-white dark:bg-gray-800 shadow-lg rounded-xl transition-transform transform hover:scale-[1.01]'>
+        <Card className='relative bg-white min-h-80 px-4 py-20 min-w-11/12 shadow-xl rounded-xl transition-transform transform hover:scale-[1.01]'>
           <h2 className='absolute top-4 left-4 text-6xl font-extrabold text-teal-200 dark:text-teal-800 opacity-50'>
             {showQuestion.key}
           </h2>

@@ -21,7 +21,11 @@ function App() {
       componentToRender = <UserForm />;
   }
 
-  return <div className='bg-indigo-50 w-full'>{componentToRender}</div>;
+  return (
+    <div className='bg-indigo-50 w-full flex justify-center'>
+      {componentToRender}
+    </div>
+  );
 }
 
 export default App;
