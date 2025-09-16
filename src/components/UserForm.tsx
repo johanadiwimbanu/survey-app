@@ -35,7 +35,7 @@ function UserForm() {
 
   return (
     <div className='w-full bg-grays-50 sm:min-w-md h-screen flex items-center justify-center'>
-      <Card className='bg-white dark:bg-gray-800 min-w-md shadow-xl'>
+      <Card className='bg-white w-md shadow-xl'>
         <CardHeader className='text-center'>
           <CardTitle className='text-2xl font-bold text-gray-800 dark:text-white'>
             Hello!
